@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta property="og:image" content="../img/cloud-OG.png">
+  <title>Illinformática | Soluções em Tecnologia da Informação</title>
+  <meta content="Somos especialistas em soluções em tecnologia da informação, transformamos experiências digitais para negócios com soluções personalizadas e de excelencia" name="description" />
+  <meta content="Illinformática | Soluções em Tecnologia da Informação" property="og:title" />
+  <meta name="keywords" content="suporte técnico, formatação, informática, assistência remota, impressora, visita técnica, ILINFORMATICA" />
+  <meta name="robots" content="index, follow">
+  <meta content="Soluções em tecnologia da informação para seu negócio." property="og:description" />
+  <meta content="../img/open-graph-image.webp" property="og:image" />
+  <meta content="Illinformática | Soluções em Tecnologia da Informação" property="twitter:title" />
+  <meta content="Soluções em tecnologia da informação para seu negócio." property="twitter:description" />
+  <meta content="../img/open-graph-image.webp" property="twitter:image" />
+  <meta property="og:type" content="website" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__container">
+      <!-- Logo -->
+      <div class="header__logo">
+        <img src="img/illinformatica-logo.svg" alt="Illinformática" class="header__logo-img">
+      </div>
+
+      <!-- Menu Desktop -->
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item">
+            <a href="#inicio" class="header__menu-link">INÍCIO</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#s-servicos" class="header__menu-link">SERVIÇOS</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#s-precos" class="header__menu-link">PREÇOS</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#s-contato" class="header__menu-link">CONTATO</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Botão CTA Desktop -->
+      <div class="header__cta">
+        <button class="header__cta-btn">
+          Solicite um serviço
+          <span class="header__cta-icon">></span>
+        </button>
+      </div>
+
+      <!-- Menu Hambúrguer Mobile -->
+      <button class="header__mobile-toggle" id="mobileToggle">
+        <img src="icons/menu-hamburguer.svg" alt="Menu" class="header__mobile-icon">
+      </button>
+    </div>
+
+    <!-- Menu Mobile Off-Canvas -->
+    <div class="header__mobile-menu" id="mobileMenu">
+      <div class="header__mobile-content">
+        <!-- Logo no topo do menu mobile -->
+        <div class="header__mobile-logo">
+          <img src="img/illinformatica-logo.svg" alt="Illinformática" class="header__mobile-logo-img">
+        </div>
+
+        <!-- Botão fechar -->
+        <button class="header__mobile-close" id="mobileClose">
+          <img src="icons/icon-close.svg" alt="Fechar" class="header__mobile-close-icon">
+        </button>
+
+        <!-- Menu links mobile -->
+        <nav class="header__mobile-nav">
+          <ul class="header__mobile-list">
+            <li class="header__mobile-item">
+              <a href="#inicio" class="header__mobile-link">INÍCIO</a>
+            </li>
+            <li class="header__mobile-item">
+              <a href="#s-servicos" class="header__mobile-link">SERVIÇOS</a>
+            </li>
+            <li class="header__mobile-item">
+              <a href="#s-precos" class="header__mobile-link">PREÇOS</a>
+            </li>
+            <li class="header__mobile-item">
+              <a href="#s-contato" class="header__mobile-link">CONTATO</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Botão CTA Mobile -->
+        <div class="header__mobile-cta">
+          <button class="header__mobile-cta-btn">
+            Solicite um serviço
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="header__overlay" id="mobileOverlay"></div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="s-hero">
+    <div class="s-hero__container">
+      <!-- Lado Esquerdo - Conteúdo -->
+      <div class="s-left">
+        <!-- Tag de Introdução -->
+        <div class="s-hero__tag">
+          <span class="s-hero__tag-text">Suporte técnico em T.I</span>
+          <img src="img/hero-tag.svg" alt="Illinformática" class="s-hero__tag-icon">
+        </div>
+
+        <!-- Título Principal -->
+        <h1 class="s-hero__title">
+          Serviço técnico de ponta perfeito para
+          <span class="s-hero__title-highlight">atender você</span>
+        </h1>
+
+        <!-- Parágrafo de Apoio -->
+        <p class="s-hero__subtitle">
+          Da formatação à visita técnica, a ILINFORMÁTICA garante performance, confiança e eficiência.
+        </p>
+
+        <!-- Botão CTA -->
+        <div class="s-hero__cta">
+          <button class="s-hero__cta-btn">
+            Solicite um serviço
+            <span class="s-hero__cta-icon">></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Lado Direito - Imagem -->
+      <div class="s-right">
+        <div class="s-hero__image-container">
+          <!-- Imagem de Fundo com Blur -->
+          <img src="img/blur-background.png" alt="Background" class="s-hero__bg-blur">
+
+          <!-- Imagem Principal -->
+          <img src="img/ilustra-hero.webp" alt="Técnico especializado" class="s-hero__main-image">
+
+          <!-- Cards Flutuantes -->
+          <div class="s-hero__card s-hero__card--top">
+            <img src="img/hero-logo.svg" alt="Illinformática" class="s-hero__card-icon">
+            <div class="s-hero__card-content">
+              <h3 class="s-hero__card-title">+ de 10 anos no mercado</h3>
+              <p class="s-hero__card-subtitle">Atendendo com excelência</p>
+            </div>
+          </div>
+
+          <div class="s-hero__card s-hero__card--bottom">
+            <img src="img/hero-logo.svg" alt="Illinformática" class="s-hero__card-icon">
+            <div class="s-hero__card-content">
+              <h3 class="s-hero__card-title">Seu parceiro em T.I</h3>
+              <p class="s-hero__card-subtitle">Soluções sob medida para você</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Barra Inferior de Navegação -->
+    <div class="s-hero__bottom-nav">
+      <div class="s-hero__bottom-container">
+        <img src="icons/icon-mouse.svg" alt="Mouse" class="s-hero__mouse-icon">
+        <ul class="s-hero__keywords">
+          <li class="s-hero__keyword-item">
+            <span class="s-hero__keyword">AGILIDADE</span>
+          </li>
+          <li class="s-hero__keyword-item">
+            <span class="s-hero__keyword">CONFIANÇA</span>
+          </li>
+          <li class="s-hero__keyword-item">
+            <span class="s-hero__keyword">TECNOLOGIA</span>
+          </li>
+          <li class="s-hero__keyword-item">
+            <span class="s-hero__keyword">ATENDIMENTO</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Benefícios -->
+  <section id="s-beneficios" class="s-beneficios">
+    <div class="s-beneficios__container">
+      <!-- Lado Esquerdo - Conteúdo -->
+      <div class="s-left">
+        <!-- Tag de Introdução -->
+        <div class="s-beneficios__tag">
+          <span class="s-beneficios__tag-text">Nosso diferencial</span>
+          <img src="icons/icon-laptop.svg" alt="Laptop" class="s-beneficios__tag-icon">
+        </div>
+
+        <!-- Título Principal -->
+        <h2 class="s-beneficios__title">
+          Tecnologia que cuida dos seus dispositivos
+        </h2>
+
+        <!-- Lista de Diferenciais -->
+        <div class="s-beneficios__list">
+          <!-- Item 1 -->
+          <div class="s-beneficios__item">
+            <div class="s-beneficios__item-icon">
+              <img src="icons/icon-suporte.svg" alt="Suporte" class="s-beneficios__icon">
+            </div>
+            <div class="s-beneficios__item-content">
+              <h3 class="s-beneficios__item-title">Suporte ágil e remoto</h3>
+              <p class="s-beneficios__item-description">
+                Resolvemos boa parte dos problemas à distância, com rapidez e segurança, onde você estiver.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="s-beneficios__item">
+            <div class="s-beneficios__item-icon">
+              <img src="icons/icon-manutencao.svg" alt="Manutenção" class="s-beneficios__icon">
+            </div>
+            <div class="s-beneficios__item-content">
+              <h3 class="s-beneficios__item-title">Manutenção técnica especializada</h3>
+              <p class="s-beneficios__item-description">
+                Cuidamos de computadores, impressoras e outros equipamentos com diagnóstico preciso.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="s-beneficios__item">
+            <div class="s-beneficios__item-icon">
+              <img src="icons/icon-visitatecnica.svg" alt="Visita Técnica" class="s-beneficios__icon">
+            </div>
+            <div class="s-beneficios__item-content">
+              <h3 class="s-beneficios__item-title">Visitas técnicas sob medida</h3>
+              <p class="s-beneficios__item-description">
+                Vamos até você com soluções personalizadas. Atendimento no local, com foco em resolução imediata.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lado Direito - Imagem -->
+      <div class="s-right">
+        <!-- Subtítulo da Imagem -->
+        <p class="s-beneficios__image-subtitle">
+          Suporte técnico ágil e preciso, tudo para garantir o bom funcionamento dos seus equipamentos.
+        </p>
+
+        <!-- Container da Imagem -->
+        <div class="s-beneficios__image-container">
+          <img src="img/ilustra-diferenciais.webp" alt="Tecnologia e dispositivos" class="s-beneficios__image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Serviços -->
+  <section id="s-servicos" class="s-servicos">
+    <div class="s-servicos__container">
+      <!-- Badge no topo -->
+      <div class="s-servicos__badge">
+        <span class="s-servicos__badge-text">Serviços</span>
+      </div>
+
+      <!-- Título principal -->
+      <h2 class="s-servicos__title">
+        Nossos principais serviços
+      </h2>
+
+      <!-- Parágrafo de apoio -->
+      <p class="s-servicos__subtitle">
+        Soluções completas em tecnologia para manter seus equipamentos funcionando perfeitamente
+      </p>
+
+      <!-- Grid de serviços -->
+      <div class="s-servicos__grid">
+        <!-- Card 1 - Suporte Técnico -->
+        <div class="s-servicos__card">
+          <div class="s-servicos__card-icon">
+            <img src="icons/icon-suportetecnico-servicos.svg" alt="Suporte Técnico" class="s-servicos__icon">
+          </div>
+          <h3 class="s-servicos__card-title">Suporte Técnico</h3>
+          <p class="s-servicos__card-description">
+            Diagnóstico e reparo de computadores, notebooks e dispositivos móveis com atendimento especializado.
+          </p>
+        </div>
+
+        <!-- Card 2 - Formatação -->
+        <div class="s-servicos__card">
+          <div class="s-servicos__card-icon">
+            <img src="icons/icon-formatacao-servicos.svg" alt="Formatação" class="s-servicos__icon">
+          </div>
+          <h3 class="s-servicos__card-title">Formatação</h3>
+          <p class="s-servicos__card-description">
+            Formatação completa, instalação de sistemas operacionais e softwares essenciais para seu negócio.
+          </p>
+        </div>
+
+        <!-- Card 3 - Assistência Remota -->
+        <div class="s-servicos__card">
+          <div class="s-servicos__card-icon">
+            <img src="icons/icon-assistenciaremota-servicos.svg" alt="Assistência Remota" class="s-servicos__icon">
+          </div>
+          <h3 class="s-servicos__card-title">Assistência Remota</h3>
+          <p class="s-servicos__card-description">
+            Suporte técnico à distância para resolver problemas rapidamente sem sair de casa ou escritório.
+          </p>
+        </div>
+
+        <!-- Card 4 - Impressão -->
+        <div class="s-servicos__card">
+          <div class="s-servicos__card-icon">
+            <img src="icons/icon-impressao-servicos.svg" alt="Impressão" class="s-servicos__icon">
+          </div>
+          <h3 class="s-servicos__card-title">Impressão</h3>
+          <p class="s-servicos__card-description">
+            O serviço de impressão envolve a produção de documentos físicos a partir de arquivos digitais. Existem várias opções, como impressão colorida ou preto e branco.
+          </p>
+        </div>
+
+        <!-- Card 5 - Visitas Técnicas -->
+        <div class="s-servicos__card">
+          <div class="s-servicos__card-icon">
+            <img src="icons/icon-visitatecnica.svg" alt="Visitas Técnicas" class="s-servicos__icon">
+          </div>
+          <h3 class="s-servicos__card-title">Visitas Técnicas</h3>
+          <p class="s-servicos__card-description">
+            Atendimento personalizado no local, com diagnóstico presencial e soluções sob medida.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Elemento "e muito +" flutuante -->
+      <div class="s-servicos__floating-text">
+        <img src="icons/icon-emuitomais.svg" alt="e muito +!" class="s-servicos__floating-icon">
+      </div>
+    </div>
+
+    <!-- Imagem blur de fundo -->
+    <div class="s-servicos__bg-blur">
+      <img src="img/blur-servicos.png" alt="Background Blur" class="s-servicos__blur-image">
+    </div>
+  </section>
+
+  <!-- Seção de Preços -->
+  <section id="s-precos" class="s-precos">
+    <div class="s-precos__container">
+      <!-- Badge no topo -->
+      <div class="s-precos__badge">
+        <div class="s-precos__badge-content">
+          <span class="s-precos__badge-text">Preços</span>
+          <div class="s-precos__badge-icon">
+            <img src="icons/icon-precos.svg" alt="Preços" class="s-precos__badge-icon-img">
+          </div>
+        </div>
+      </div>
+
+      <!-- Título principal -->
+      <h2 class="s-precos__title">
+        Tabela de Preços
+      </h2>
+
+      <!-- Parágrafo explicativo -->
+      <p class="s-precos__subtitle">
+        Preços transparentes e justos para todos os nossos serviços. Escolha o que melhor se adapta às suas necessidades.
+      </p>
+
+      <!-- Grid de categorias -->
+      <div class="s-precos__grid">
+        <!-- Card 1 - Suporte Técnico -->
+        <div class="s-precos__card">
+          <div class="s-precos__card-header">
+            <img src="icons/icon-suportetecnico-servicos.svg" alt="Suporte Técnico" class="s-precos__card-icon">
+            <h3 class="s-precos__card-title">Suporte Técnico</h3>
+            <img src="icons/icon-recortelogo.png" alt="Recorte Logo" class="s-precos__card-decoration">
+          </div>
+          <div class="s-precos__card-content">
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Instalação e configuração de câmeras IP</span>
+              <span class="s-precos__service-price">R$ 20,00</span>
+            </div>
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Instalação de hardware e periféricos</span>
+              <span class="s-precos__service-price">R$ 20,00</span>
+            </div>
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Configuração de redes e roteadores</span>
+              <span class="s-precos__service-price">R$ 20,00</span>
+            </div>
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Limpeza de desktops</span>
+              <span class="s-precos__service-price">R$ 40,00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 - Formatação -->
+        <div class="s-precos__card">
+          <div class="s-precos__card-header">
+            <img src="icons/icon-formatacao-servicos.svg" alt="Formatação" class="s-precos__card-icon">
+            <h3 class="s-precos__card-title">Formatação</h3>
+            <img src="icons/icon-recortelogo.png" alt="Recorte Logo" class="s-precos__card-decoration">
+          </div>
+          <div class="s-precos__card-content">
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Com Backup</span>
+              <span class="s-precos__service-price">R$ 70,00</span>
+            </div>
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Sem Backup</span>
+              <span class="s-precos__service-price">R$ 60,00</span>
+            </div>
+            <div class="s-precos__service-note">
+              <strong>Atenção!</strong> Por favor, note que o serviço de formatação não inclui o licenciamento do Windows. Caso o cliente não possua uma conta Microsoft com uma chave de licença válida, será necessário adquiri-la separadamente.
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 - Assistência Remota -->
+        <div class="s-precos__card">
+          <div class="s-precos__card-header">
+            <img src="icons/icon-assistenciaremota-servicos.svg" alt="Assistência Remota" class="s-precos__card-icon">
+            <h3 class="s-precos__card-title">Assistência Remota</h3>
+            <img src="icons/icon-recortelogo.png" alt="Recorte Logo" class="s-precos__card-decoration">
+          </div>
+          <div class="s-precos__card-content">
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Suporte básico (30min)</span>
+              <span class="s-precos__service-price">R$ 30,00</span>
+            </div>
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Suporte médio (1h)</span>
+              <span class="s-precos__service-price">R$ 50,00</span>
+            </div>
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Configuração avançada</span>
+              <span class="s-precos__service-price">R$ 80,00</span>
+            </div>
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Treinamento remoto</span>
+              <span class="s-precos__service-price">R$ 100,00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 - Impressão -->
+        <div class="s-precos__card">
+          <div class="s-precos__card-header">
+            <img src="icons/icon-impressao-servicos.svg" alt="Impressão" class="s-precos__card-icon">
+            <h3 class="s-precos__card-title">Impressão</h3>
+            <img src="icons/icon-recortelogo.png" alt="Recorte Logo" class="s-precos__card-decoration">
+          </div>
+          <div class="s-precos__card-content">
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Limpeza básica</span>
+              <span class="s-precos__service-price">R$ 40,00</span>
+            </div>
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Troca de peças</span>
+              <span class="s-precos__service-price">R$ 80,00</span>
+            </div>
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Configuração de rede</span>
+              <span class="s-precos__service-price">R$ 60,00</span>
+            </div>
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Manutenção completa</span>
+              <span class="s-precos__service-price">R$ 120,00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 - Visitas Técnicas -->
+        <div class="s-precos__card s-precos__card--single">
+          <div class="s-precos__card-header">
+            <img src="icons/icon-visitatecnica-servicos.svg" alt="Visitas Técnicas" class="s-precos__card-icon">
+            <h3 class="s-precos__card-title">Visitas Técnicas</h3>
+            <img src="icons/icon-recortelogo.png" alt="Recorte Logo" class="s-precos__card-decoration">
+          </div>
+          <div class="s-precos__card-content">
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Manutenção e Reparo do Sistema</span>
+              <span class="s-precos__service-price">R$ 30,00</span>
+            </div>
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Instalação de programas personalizados</span>
+              <span class="s-precos__service-price">R$ 10,00</span>
+            </div>
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Visita Técnica - (Palmital)</span>
+              <span class="s-precos__service-price">R$ 50,00</span>
+            </div>
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Visita Técnica - (Retiro / Paineiras)</span>
+              <span class="s-precos__service-price">R$ 60,00</span>
+            </div>
+            <div class="s-precos__service-item">
+              <span class="s-precos__service-name">Visita Técnica (Condições climáticas adversas)<br>Adicional com os valores acima</span>
+              <span class="s-precos__service-price">R$ 15,00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Informações Importantes -->
+      <div class="s-precos__info-section">
+        <div class="s-precos__info-icon">
+          <img src="icons/icon-dolar.svg" alt="Dólar" class="s-precos__info-icon-img">
+        </div>
+        <div class="s-precos__info-content">
+          <h3 class="s-precos__info-title">Informações Importantes</h3>
+          <div class="s-precos__info-grid">
+            <div class="s-precos__info-block">
+              <h4 class="s-precos__info-block-title">Deslocamento:</h4>
+              <ul class="s-precos__info-list">
+                <li>• Dentro da cidade: Gratuito</li>
+                <li>• Zona rural: R$ 20,00</li>
+                <li>• Cidades vizinhas: R$ 40,00</li>
+              </ul>
+            </div>
+            <div class="s-precos__info-block">
+              <h4 class="s-precos__info-block-title">Condições:</h4>
+              <ul class="s-precos__info-list">
+                <li>• Orçamento sem compromisso</li>
+                <li>• Garantia de 30 dias</li>
+                <li>• Pagamento em dinheiro ou PIX</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Quem Somos -->
+  <section id="s-quemsomos" class="s-quemsomos">
+    <div class="s-quemsomos__container">
+      <!-- Lado Esquerdo - Conteúdo -->
+      <div class="s-left">
+        <!-- Tag de Introdução -->
+        <div class="s-quemsomos__tag">
+          <span class="s-quemsomos__tag-text">Quem Somos</span>
+          <img src="icons/icon-quemsomos.svg" alt="Quem Somos" class="s-quemsomos__tag-icon">
+        </div>
+
+        <!-- Título Principal -->
+        <h2 class="s-quemsomos__title">
+          Soluções ágeis e confiáveis para o seu dia a dia
+        </h2>
+
+        <!-- Parágrafo de Apoio -->
+        <p class="s-quemsomos__subtitle">
+          Somos especialistas em suporte técnico e soluções digitais. Atuamos com foco em confiabilidade e agilidade.
+        </p>
+
+        <!-- Botão CTA -->
+        <div class="s-quemsomos__cta">
+          <button class="s-quemsomos__cta-btn">
+            Solicite um serviço
+            <span class="s-quemsomos__cta-icon">></span>
+          </button>
+        </div>
+
+        <!-- Cards de conteúdo -->
+        <div class="s-quemsomos__cards">
+          <!-- Card 1 - Diferenciais -->
+          <div class="s-quemsomos__card">
+            <div class="s-quemsomos__card-icon">
+              <img src="icons/icon-diferenciais.svg" alt="Diferenciais" class="s-quemsomos__icon">
+            </div>
+            <div class="s-quemsomos__card-content">
+              <h3 class="s-quemsomos__card-title">Diferenciais</h3>
+              <p class="s-quemsomos__card-description">
+                Priorizamos a satisfação do cliente com diagnósticos precisos, valores justos e comunicação clara.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 2 - Missão -->
+          <div class="s-quemsomos__card">
+            <div class="s-quemsomos__card-icon">
+              <img src="icons/icon-missao.svg" alt="Missão" class="s-quemsomos__icon">
+            </div>
+            <div class="s-quemsomos__card-content">
+              <h3 class="s-quemsomos__card-title">Missão</h3>
+              <p class="s-quemsomos__card-description">
+                Ajudamos pessoas e empresas a manterem seus equipamentos funcionando com segurança e eficiência.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 3 - Valores -->
+          <div class="s-quemsomos__card">
+            <div class="s-quemsomos__card-icon">
+              <img src="icons/icon-valores.svg" alt="Valores" class="s-quemsomos__icon">
+            </div>
+            <div class="s-quemsomos__card-content">
+              <h3 class="s-quemsomos__card-title">Valores</h3>
+              <p class="s-quemsomos__card-description">
+                Acreditamos na tecnologia como meio de transformação, com ética, profissionalismo e dedicação em cada atendimento.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Depoimentos -->
+  <section id="s-depoimentos" class="s-depoimentos">
+    <div class="s-depoimentos__container">
+      <!-- Badge no topo -->
+      <div class="s-depoimentos__badge">
+        <span class="s-depoimentos__badge-text">
+          Depoimentos
+          <img src="icons/icon-estrela.svg" alt="Estrela" class="s-depoimentos__badge-icon">
+        </span>
+      </div>
+
+      <!-- Título principal -->
+      <h2 class="s-depoimentos__title">O que nossos clientes dizem</h2>
+
+      <!-- Subtítulo explicativo -->
+      <p class="s-depoimentos__subtitle">
+        Depoimentos reais de clientes e empresas que confiam em nossos serviços
+      </p>
+
+      <!-- Grid de cards de depoimento -->
+      <div class="s-depoimentos__grid">
+        <!-- Card 1 -->
+        <div class="s-depoimentos__card">
+          <!-- Avaliação com 5 estrelas -->
+          <div class="s-depoimentos__stars">
+            <img src="icons/icon-estrelasgroup.svg" alt="5 estrelas" class="s-depoimentos__stars-img">
+          </div>
+
+          <!-- Depoimento -->
+          <blockquote class="s-depoimentos__quote">
+            "O atendimento da ILINFORMÁTICA é excepcional! Resolveram nosso problema de rede em menos de 2 horas. Recomendo para todas as empresas."
+          </blockquote>
+
+          <!-- Informações do cliente -->
+          <div class="s-depoimentos__client">
+            <div class="s-depoimentos__client-avatar">
+              <img src="icons/icon-userdepoimento.svg" alt="Maria Silva" class="s-depoimentos__client-img">
+            </div>
+            <div class="s-depoimentos__client-info">
+              <h4 class="s-depoimentos__client-name">Maria Silva</h4>
+              <p class="s-depoimentos__client-company">Consultoria Empresarial MS</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="s-depoimentos__card">
+          <!-- Avaliação com 5 estrelas -->
+          <div class="s-depoimentos__stars">
+            <img src="icons/icon-estrelasgroup.svg" alt="5 estrelas" class="s-depoimentos__stars-img">
+          </div>
+
+          <!-- Depoimento -->
+          <blockquote class="s-depoimentos__quote">
+            "Profissionais extremamente competentes. A assistência remota nos salvou várias vezes durante o expediente. Serviço de qualidade!"
+          </blockquote>
+
+          <!-- Informações do cliente -->
+          <div class="s-depoimentos__client">
+            <div class="s-depoimentos__client-avatar">
+              <img src="icons/icon-userdepoimento.svg" alt="João Santos" class="s-depoimentos__client-img">
+            </div>
+            <div class="s-depoimentos__client-info">
+              <h4 class="s-depoimentos__client-name">João Santos</h4>
+              <p class="s-depoimentos__client-company">Escritório de Advocacia Santos</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="s-depoimentos__card">
+          <!-- Avaliação com 5 estrelas -->
+          <div class="s-depoimentos__stars">
+            <img src="icons/icon-estrelasgroup.svg" alt="5 estrelas" class="s-depoimentos__stars-img">
+          </div>
+
+          <!-- Depoimento -->
+          <blockquote class="s-depoimentos__quote">
+            "Formataram todos os computadores da clínica e instalaram os sistemas necessários. Trabalho impecável e dentro do prazo acordado."
+          </blockquote>
+
+          <!-- Informações do cliente -->
+          <div class="s-depoimentos__client">
+            <div class="s-depoimentos__client-avatar">
+              <img src="icons/icon-userdepoimento.svg" alt="Ana Costa" class="s-depoimentos__client-img">
+            </div>
+            <div class="s-depoimentos__client-info">
+              <h4 class="s-depoimentos__client-name">Ana Costa</h4>
+              <p class="s-depoimentos__client-company">Clínica Odontológica Costa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Contato/Painel -->
+  <section id="s-contato" class="s-contato">
+    <div class="s-contato__container">
+      <!-- Badge no topo -->
+      <div class="s-contato__badge">
+        <span class="s-contato__badge-text">
+          Painel
+          <img src="icons/icon-painel.svg" alt="Painel" class="s-contato__badge-icon">
+        </span>
+      </div>
+
+      <!-- Título principal -->
+      <h2 class="s-contato__title">Acesse nosso painel</h2>
+
+      <!-- Parágrafo descritivo -->
+      <p class="s-contato__description">
+        Utilize nosso painel do cliente para solicitar ou agendar qualquer serviço disponível. Todo o processo de atualização da sua OS poderá ser acompanhado pela sua conta.
+      </p>
+
+      <!-- Mensagem de orientação -->
+      <div class="s-contato__alert">
+        <p class="s-contato__alert-text">
+          <strong>Clientes:</strong> Caso ainda não possua suas credenciais de acesso, solicite-as através do nosso WhatsApp. Durante o cadastro, utilize sempre informações verdadeiras para evitar futuros problemas, como a impossibilidade de acessar o sistema.
+        </p>
+      </div>
+
+      <!-- Botão WhatsApp central -->
+      <div class="s-contato__whatsapp">
+        <button class="s-contato__whatsapp-btn">
+          <img src="icons/icon-whatsapp.svg" alt="WhatsApp" class="s-contato__whatsapp-icon">
+          WhatsApp
+        </button>
+      </div>
+
+      <!-- Grid de painéis -->
+      <div class="s-contato__grid">
+        <!-- Card 1 - Solicitar Acesso -->
+        <div class="s-contato__card">
+          <div class="s-contato__card-icon">
+            <img src="icons/icon-solicitaracesso.svg" alt="Solicitar Acesso" class="s-contato__icon">
+          </div>
+          <h3 class="s-contato__card-title">Solicitar Acesso</h3>
+          <p class="s-contato__card-description">
+            Primeiro acesso? Solicite suas credenciais para começar a usar nossos serviços.
+          </p>
+          <button class="s-contato__card-btn">
+            Solicitar acesso
+            <span class="s-contato__card-arrow">></span>
+          </button>
+        </div>
+
+        <!-- Card 2 - Painel do Cliente -->
+        <div class="s-contato__card">
+          <div class="s-contato__card-icon">
+            <img src="icons/icon-paineldocliente.svg" alt="Painel do Cliente" class="s-contato__icon">
+          </div>
+          <h3 class="s-contato__card-title">Painel do Cliente</h3>
+          <p class="s-contato__card-description">
+            Acesse sua área exclusiva para acompanhar serviços e fazer novos pedidos.
+          </p>
+          <button class="s-contato__card-btn">
+            Painel do Cliente
+            <span class="s-contato__card-arrow">></span>
+          </button>
+        </div>
+
+        <!-- Card 3 - Painel do Administrador -->
+        <div class="s-contato__card">
+          <div class="s-contato__card-icon">
+            <img src="icons/icon-paineldoadministrador.svg" alt="Painel do Administrador" class="s-contato__icon">
+          </div>
+          <h3 class="s-contato__card-title">Painel do Administrador</h3>
+          <p class="s-contato__card-description">
+            Área restrita para gerenciamento e administração do sistema.
+          </p>
+          <button class="s-contato__card-btn">
+            Painel do Administrador
+            <span class="s-contato__card-arrow">></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="footer__container">
+      <!-- Card do Footer -->
+      <div class="footer__card">
+        <!-- Grid principal do footer -->
+        <div class="footer__grid">
+          <!-- Coluna esquerda - Logotipo -->
+          <div class="footer__brand">
+            <img src="img/illinformatica-logo.svg" alt="Illinformática" class="footer__logo">
+          </div>
+
+          <!-- Coluna Sobre nós -->
+          <div class="footer__column">
+            <h4 class="footer__title">Sobre nós</h4>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#s-quemsomos" class="footer__link">Quem somos</a>
+              </li>
+              <li class="footer__item">
+                <a href="#s-depoimentos" class="footer__link">Depoimentos</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Coluna Contato -->
+          <div class="footer__column">
+            <h4 class="footer__title">Contato</h4>
+            <div class="footer__contact">
+              <p class="footer__contact-item">
+                <span class="footer__contact-label">Telefone:</span>
+                <a href="tel:+5528992783233" class="footer__contact-link">+(28) 99278-3233</a>
+              </p>
+              <p class="footer__contact-item">
+                <span class="footer__contact-label">Email:</span>
+                <a href="mailto:igor@ilinformatica.com.br" class="footer__contact-link">igor@ilinformatica.com.br</a>
+              </p>
+              <p class="footer__contact-item">
+                <span class="footer__contact-label">Endereço:</span>
+                <span class="footer__contact-text">Palmital, Rua Principal - S.N</span>
+              </p>
+              <p class="footer__contact-item">
+                <span class="footer__contact-label">Atendimento:</span>
+                <span class="footer__contact-text">Somente Agendado</span>
+              </p>
+              <p class="footer__contact-item">
+                <span class="footer__contact-label">Regiões atendidas:</span>
+                <span class="footer__contact-text">Palmital, Paineiras, Retiro</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Coluna Serviços -->
+          <div class="footer__column">
+            <h4 class="footer__title">Serviços</h4>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#s-beneficios" class="footer__link">Nosso diferencial</a>
+              </li>
+              <li class="footer__item">
+                <a href="#s-servicos" class="footer__link">Nossos serviços</a>
+              </li>
+              <li class="footer__item">
+                <a href="#s-precos" class="footer__link">Preços</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Linha inferior do rodapé -->
+        <div class="footer__bottom">
+          <hr class="footer__bottom-line">
+          <p class="footer__copyright">©2025 Illinformática</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Remover navigation.js para evitar conflitos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <!-- Navegação mobile simples - PRIORIDADE -->
+  <script src="js/mobile-nav-simple.js"></script>
+  <!-- Smooth scroll e animações personalizadas -->
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
